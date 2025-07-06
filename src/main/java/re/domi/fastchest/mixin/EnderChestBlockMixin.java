@@ -16,15 +16,6 @@ import re.domi.fastchest.config.Config;
 @Mixin(EnderChestBlock.class)
 public class EnderChestBlockMixin
 {
-    @Inject(method = "getRenderType", at = @At("HEAD"), cancellable = true)
-    private void replaceRenderType(BlockState state, CallbackInfoReturnable<BlockRenderType> cir)
-    {
-        if (Config.simplifiedChest)
-        {
-            cir.setReturnValue(BlockRenderType.MODEL);
-        }
-    }
-
     @Inject(method = "getTicker", at = @At("HEAD"), cancellable = true)
     private <T extends BlockEntity> void removeTicker(World world, BlockState state, BlockEntityType<T> type, CallbackInfoReturnable<BlockEntityTicker<T>> cir)
     {

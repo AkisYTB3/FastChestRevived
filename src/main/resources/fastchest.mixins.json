@@ -5,7 +5,8 @@
   "client": [
     "BlockEntityRenderDispatcherMixin",
     "ChestBlockMixin",
-    "EnderChestBlockMixin"
+    "EnderChestBlockMixin",
+    "AbstractBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
