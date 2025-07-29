@@ -3,7 +3,7 @@
   "id": "fastchest",
   "version": "${version}",
 
-  "name": "FastChest",
+  "name": "FastChest Revived",
   "description": "Makes chests use static block models for improved performance.",
   "authors": [
     "Domi"
