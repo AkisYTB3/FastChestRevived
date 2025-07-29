@@ -10,7 +10,7 @@ import net.minecraft.world.chunk.WorldChunk;
 
 public class ConfigScreen extends Screen
 {
-    private static final Text SCREEN_TITLE = Text.literal("FastChest config");
+    private static final Text SCREEN_TITLE = Text.literal("FastChest Revived config");
     private static final Text SIMPLIFIED_ON = Text.literal("Simplified chest: ON");
     private static final Text SIMPLIFIED_OFF = Text.literal("Simplified chest: OFF");
 

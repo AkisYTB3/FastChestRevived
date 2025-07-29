@@ -7,8 +7,8 @@ import java.util.Properties;
 
 public class Config
 {
-    private static final File CONFIG_FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "fast-chest.properties");
-    private static final String CONFIG_COMMENT = "FastChest config file";
+    private static final File CONFIG_FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "fast-chest-revived.properties");
+    private static final String CONFIG_COMMENT = "FastChest Revived config file";
     private static final String SIMPLIFIED_CHEST = "simplifiedChest";
 
     public static boolean simplifiedChest = true;
