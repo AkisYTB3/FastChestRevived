@@ -6,7 +6,8 @@
     "BlockEntityRenderDispatcherMixin",
     "ChestBlockMixin",
     "EnderChestBlockMixin",
-    "AbstractBlockMixin"
+    "AbstractBlockMixin",
+    "BlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
