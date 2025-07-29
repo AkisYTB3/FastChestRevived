@@ -10,9 +10,9 @@
     "Domi"
   ],
   "contact": {
-    "homepage": "https://domi.re/mc-mods/fastchest",
-    "sources": "https://github.com/FakeDomi/FastChest",
-    "issues": "https://github.com/FakeDomi/FastChest/issues"
+    "homepage": "https://modrinth.com/mod/fastchest-revived",
+    "sources": "https://github.com/AkisYTB3/FastChestRevived",
+    "issues": "https://github.com/AkisYTB3/FastChestRevived/issues"
   },
 
   "license": "MIT",
