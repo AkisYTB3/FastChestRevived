@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "fastchest",
+  "id": "fastchestrevived",
   "version": "${version}",
 
   "name": "FastChest Revived",
@@ -25,7 +25,7 @@
     ]
   },
   "mixins": [
-    "fastchest.mixins.json"
+    "fastchestrevived.mixins.json"
   ],
 
   "depends": {
