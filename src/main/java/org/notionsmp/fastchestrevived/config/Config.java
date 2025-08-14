@@ -1,4 +1,4 @@
-package re.domi.fastchest.config;
+package org.notionsmp.fastchestrevived.config;
 
 import net.fabricmc.loader.api.FabricLoader;
 

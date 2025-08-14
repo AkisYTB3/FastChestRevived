@@ -21,7 +21,7 @@
   "environment": "client",
   "entrypoints": {
     "modmenu": [
-      "re.domi.fastchest.config.ModMenuImpl"
+      "org.notionsmp.fastchestrevived.config.ModMenuImpl"
     ]
   },
   "mixins": [

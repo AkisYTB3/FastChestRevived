@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "re.domi.fastchest.mixin",
+  "package": "org.notionsmp.fastchestrevived.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "BlockEntityRenderDispatcherMixin",

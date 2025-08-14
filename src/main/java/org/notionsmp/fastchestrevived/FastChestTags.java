@@ -1,4 +1,4 @@
-package re.domi.fastchest;
+package org.notionsmp.fastchestrevived;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntityType;

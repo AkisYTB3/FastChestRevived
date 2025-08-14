@@ -1,4 +1,4 @@
-package re.domi.fastchest.config;
+package org.notionsmp.fastchestrevived.config;
 
 import net.fabricmc.fabric.impl.event.lifecycle.LoadedChunksCache;
 import net.minecraft.client.gui.DrawContext;

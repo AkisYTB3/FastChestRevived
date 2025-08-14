@@ -1,4 +1,4 @@
-package re.domi.fastchest.config;
+package org.notionsmp.fastchestrevived.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
