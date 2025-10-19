@@ -3,7 +3,6 @@
   "package": "org.notionsmp.fastchestrevived.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "BlockEntityRenderDispatcherMixin",
     "ChestBlockMixin",
     "EnderChestBlockMixin",
     "AbstractBlockMixin"

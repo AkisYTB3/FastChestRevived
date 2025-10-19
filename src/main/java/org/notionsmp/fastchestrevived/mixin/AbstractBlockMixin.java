@@ -11,10 +11,9 @@ import org.notionsmp.fastchestrevived.config.Config;
 public abstract class AbstractBlockMixin {
     @Inject(method = "getRenderType", at = @At("HEAD"), cancellable = true)
     private void fastchest$simplifyRenderType(BlockState state, CallbackInfoReturnable<BlockRenderType> cir) {
-        // Handle both ChestBlock and EnderChestBlock
         if (Config.simplifiedChest) {
             Block block = state.getBlock();
-            if (block instanceof ChestBlock || block instanceof EnderChestBlock) {
+            if (block instanceof ChestBlock || block instanceof EnderChestBlock || block instanceof CopperChestBlock) {
                 cir.setReturnValue(BlockRenderType.MODEL);
             }
         }
