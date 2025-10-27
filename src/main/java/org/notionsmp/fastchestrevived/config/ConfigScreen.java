@@ -72,7 +72,7 @@ public class ConfigScreen extends Screen
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta)
     {
-        this.renderBackground(context, mouseX, mouseY, delta);
+        this.renderBackgroundTexture(context, Screen.MENU_BACKGROUND_TEXTURE, 0, 0, 0.0F, 0.0F, this.width, this.height);
         context.drawCenteredTextWithShadow(this.textRenderer, this.title, this.width / 2, 5, 0xFFFFFF);
         super.render(context, mouseX, mouseY, delta);
     }
